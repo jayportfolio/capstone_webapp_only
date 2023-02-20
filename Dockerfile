@@ -11,10 +11,9 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# xxx RUN git clone https://github.com/streamlit/streamlit-example.git .
-copy . /streamlit_webapp_docker
-#copy requirements.txt /streamlit_webapp_docker
-#copy my_streamlit_app.py /streamlit_webapp_docker
+# copy . /streamlit_webapp_docker
+#RUN git clone https://github.com/streamlit/streamlit-example.git .
+RUN git clone https://github.com/jayportfolio/capstone_webapp_only.git .
 
 RUN pip3 install -r requirements.txt
 
