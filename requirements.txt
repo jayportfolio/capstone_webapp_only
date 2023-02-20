@@ -1,0 +1,45 @@
+streamlit
+matplotlib
+scikit-learn
+xgboost ==1.6.1 # downgraded from latest 1.7.3
+
+## Incoming
+#numpy
+#pandas
+#
+
+#
+#scikeras
+#catboost
+
+#seaborn #==0.11.2
+#tensorflow-cpu
+#
+#lightgbm
+
+
+## Newly excluded
+
+### For model generation
+#pytest
+#xxx pytest-cov
+#tabulate
+#termcolor
+#beautifulsoup4
+
+# Data collection components
+#Scrapy #==2.6.1
+#scrapy-splash #==0.8.0
+#html2text
+
+#### Excluded
+#jupyter #==1.0.0
+#matplotlib #==3.5.2
+#matplotlib-inline #==0.1.3
+#notebook #==6.4.12
+#xxxtensorflow
+#html2text #==2020.1.16
+#ipykernel #==6.13.1
+#regex #==2022.7.9
+#requests #==2.28.0
+#scipy #==1.8.1
