@@ -9,8 +9,8 @@ To run the Streamlit app, run:<br>
 To run as a Docker app, run:<br>
 
 `sudo docker build -t capstone_streamlit .` <br>
-`sudo docker run -p 8501:8501 capstone_streamlit`
-
+`sudo docker run -p 8501:8501 capstone_streamlit` <br>
+or <br>
 `docker build -t capstone_streamlit .` <br>
-`docker run -p 8501:8501 capstone_streamlit`
+`docker run -p 8501:8501 capstone_streamlit` <br>
 
